@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eldo Hidayat Arianto — Data Analyst Portfolio</title>
+  <meta name="description" content="Portofolio Data Analyst: Power BI, Machine Learning, NLP, dan Risk Monitoring." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Eldo<span>.</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <!-- ===== HERO / HOME ===== -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="hero-greeting">Halo, saya</p>
+        <h1>Eldo Hidayat Arianto</h1>
+        <h2>Data Analyst | Power BI & Machine Learning</h2>
+        <p class="hero-desc">
+          Information Systems graduate (GPA 3.63/4.00) dengan pengalaman magang
+          Data Analyst di PT Bank Rakyat Indonesia. Berfokus pada dashboard
+          Power BI, risk monitoring (EWS/CRR), dan NLP.
+        </p>
+        <div class="hero-actions">
+          <a href="assets/CV_Eldo_Hidayat_Arianto.pdf" class="btn btn-outline" download>Download CV</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/eldo-hidayat-arianto-a2501a388/" target="_blank" rel="noopener">LinkedIn</a>
+          <!-- Email otomatis ke Gmail -->
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=eldohidayaat@gmail.com" target="_blank" rel="noopener">Email</a>
+          <a href="https://wa.me//6285943488392" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://www.instagram.com/eldohidayat_/" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+      <div class="hero-photo floating">
+        <img src="assets/foto-profil.jpg" alt="Foto Eldo Hidayat Arianto" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SLIDER PROYEK (MENGGANTIKAN HIGHLIGHT) ===== -->
+  <section class="projects-showcase">
+    <div class="container">
+      <h2 class="section-title text-center">Proyek</h2>
+      <p class="section-subtitle text-center">Geser untuk melihat semua proyek.</p>
+      
+      <div class="carousel-container">
+        <button class="slider-nav prev" aria-label="Previous project">&#10094;</button>
+        
+        <div class="carousel-track">
+          
+          <!-- Card 1: Dashboard EWS -->
+          <div class="carousel-item active">
+            <div class="carousel-card">
+              <img src="assets/dashboard-1.png" alt="Dashboard EWS" />
+              <div class="slide-card-content">
+                <h3>Dashboard EWS & CRR</h3>
+                <p>Power BI dashboard untuk monitoring risiko segmen SME di BRI.</p>
+                <a href="#project-ews" class="link-arrow">Lihat studi kasus →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: NLP -->
+          <div class="carousel-item">
+            <div class="carousel-card">
+              <img src="assets/nlp-cover.png" alt="NLP Comparison" />
+              <div class="slide-card-content">
+                <h3>Perbandingan Model NLP</h3>
+                <p>Word2Vec, BERT, BART, T5 dengan metrik ROUGE.</p>
+                <a href="#project-nlp" class="link-arrow">Lihat studi kasus →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: SIBULAN -->
+          <div class="carousel-item">
+            <div class="carousel-card">
+              <img src="assets/sibulan.png" alt="SIBULAN" />
+              <div class="slide-card-content">
+                <h3>Riset Status Gizi Lansia</h3>
+                <p>Analisis status gizi 20 lansia menggunakan metode MNA-LF.</p>
+                <a href="#project-sibulan" class="link-arrow">Lihat studi kasus →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: KMS PLN -->
+          <div class="carousel-item">
+            <div class="carousel-card">
+              <img src="assets/kms-pln.png" alt="KMS PLN" />
+              <div class="slide-card-content">
+                <h3>Knowledge Management System</h3>
+                <p>Perancangan sistem ticketing IT di PLN UP3 Cimahi.</p>
+                <a href="#project-kms" class="link-arrow">Lihat studi kasus →</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+        <button class="slider-nav next" aria-label="Next project">&#10095;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="experience">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">Aug 2026 – Present</div>
+          <div class="timeline-content">
+            <h3>Data Analyst Intern — PT Bank Rakyat Indonesia (Persero) Tbk.</h3>
+            <ul>
+              <li>Membangun dashboard Power BI EWS & CRR untuk segmen SME (3.759 debitur EWS Medium).</li>
+              <li>Validasi data + model logistic regression probabilitas NPL level debitur.</li>
+              <li>Menyusun report debitur belum update laporan keuangan dan analisis upgrade/downgrade.</li>
+            </ul>
+            <a href="#project-ews" class="link-arrow">Lihat studi kasus →</a>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">Jun 2024 – Aug 2024</div>
+          <div class="timeline-content">
+            <h3>IT Support Intern — PLN UP3 Cimahi</h3>
+            <ul>
+              <li>Mendesain sistem ticketing & knowledge management terintegrasi.</li>
+              <li>Menangani 10+ request dukungan IT per hari sesuai SOP.</li>
+              <li>Menyusun dokumentasi tiket yang audit-ready.</li>
+            </ul>
+            <a href="#project-kms" class="link-arrow">Lihat studi kasus →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ORGANIZATIONAL EXPERIENCE ===== -->
+  <section id="organization" class="experience">
+    <div class="container">
+      <h2 class="section-title">Organizational Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2021 – 2024</div>
+          <div class="timeline-content">
+            <h3>Gerakan Disiplin Sukajadi (GDS) — Volunteer</h3>
+            <ul>
+              <li>Menjadi relawan sosialisasi tertib lalu lintas kepada masyarakat sesuai prosedur yang ditetapkan.</li>
+              <li>Membantu meningkatkan kesadaran masyarakat dan mendorong perilaku lalu lintas yang tertib di lingkungan Sukajadi.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2021 – 2024</div>
+          <div class="timeline-content">
+            <h3>Nasi Bekal Untuk Lansia (SIBULAN) — Koordinator Distribusi</h3>
+            <ul>
+              <li>Mendistribusikan makanan bergizi sekaligus memantau kualitas gizi lansia</li>
+              <li>Mendokumentasikan penerima manfaat dan menyusun laporan berkala untuk evaluasi program.</li>
+              <li>Memastikan setiap distribusi terdokumentasi dengan baik sehingga hasil program dapat ditinjau secara akurat.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2021 – 2024</div>
+          <div class="timeline-content">
+            <h3>Gerakan Dua Puluh Ribu Rupiah (GERAH) — Anggota</h3>
+            <ul>
+              <li>Berpartisipasi dalam kegiatan penggalangan dana dan kegiatan sosial.</li>
+              <li>Mengelola catatan donasi dengan memperhatikan akurasi administrasi dan kerja sama tim.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section id="certifications" class="certifications">
+    <div class="container">
+      <h2 class="section-title">Certifications & Education</h2>
+
+      <div class="cert-list">
+        <div class="cert-card">
+          <div class="cert-info">
+            <h3>Sarjana Komputer (S1) — Sistem Informasi</h3>
+            <p>Universitas Komputer Indonesia — Lulus 29 Agustus 2025</p>
+            <p><strong>IPK 3.63 / 4.00</strong> | Akreditasi Unggul</p>
+          </div>
+          <a href="assets/ijazah.pdf" class="btn btn-small" target="_blank">Lihat Ijazah</a>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-info">
+            <h3>CCNA: Introduction to Networks</h3>
+            <p>Cisco — 17 Feb 2023</p>
+          </div>
+          <a href="assets/sertifikat-ccna1.pdf" class="btn btn-small" target="_blank">Lihat Sertifikat</a>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-info">
+            <h3>CCNAv7: Switching, Routing, and Wireless Essentials</h3>
+            <p>Cisco — 28 Aug 2023</p>
+          </div>
+          <a href="assets/sertifikat-ccna2.pdf" class="btn btn-small" target="_blank">Lihat Sertifikat</a>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-info">
+            <h3>TOEFL Certificate</h3>
+            <p>Brighten English Pare Kediri — 11 Oktober 2026</p>
+            <p>Total Score: <strong>557</strong></p>
+          </div>
+          <a href="assets/sertifikat-toefl.pdf" class="btn btn-small" target="_blank">Lihat Sertifikat</a>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-info">
+            <h3>Programming and Software Development</h3>
+            <p>Media Informatika Professional Certification — Dec 2025</p>
+          </div>
+          <a href="assets/sertifikat-kompetensi.pdf" class="btn btn-small" target="_blank">Lihat Sertifikat</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-subtitle">Terbuka untuk peluang Data Analyst, Business Intelligence, dan Risk Analytics.</p>
+      <div class="contact-links">
+        <!-- Email otomatis ke Gmail -->
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=eldohidayaat@gmail.com" target="_blank" rel="noopener" class="btn btn-primary">Email Saya</a>
+        <a href="https://www.linkedin.com/in/eldo-hidayat-arianto-a2501a388/" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn</a>
+        <a href="https://wa.me//6285943488392" target="_blank" rel="noopener" class="btn btn-outline">WhatsApp</a>
+        <a href="https://www.instagram.com/eldohidayat_/" target="_blank" rel="noopener" class="btn btn-outline">Instagram</a>
+        <a href="assets/CV_Eldo_Hidayat_Arianto.pdf"  target="_blank" rel="noopener" class="btn btn-outline">Download CV (PDF)</a>
+      </div>
+ 
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Eldo Hidayat Arianto</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
